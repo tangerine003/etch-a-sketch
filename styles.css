@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: blue;
+}
+
+.square-div {
+  width: 77px;
+  height: 77px;
+
+  background-color: violet;
+  outline: 2px solid red;
+}
