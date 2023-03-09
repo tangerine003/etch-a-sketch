@@ -11,3 +11,7 @@
   background-color: violet;
   outline: 2px solid red;
 }
+
+.square-div:hover {
+  background-color: palegreen;
+}
