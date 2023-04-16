@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="icon" type="image/png" href="./favicon1.png" />
     <title>Etch A Sketch</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="styles.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=DotGothic16"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Audiowide"
     />
   </head>
   <body>
@@ -26,7 +31,10 @@
 
         <button class="grid-clear">Clear</button>
         <button class="toggle-grid-lines">Toggle Grid Lines</button>
-        <div class="choose-color">Choose Color</div>
+        <div class="choose-color">
+          Choose Color:
+          <input type="color" name="" id="color-picker" value="#aa045a" />
+        </div>
         <button class="random-color">Random Color</button>
         <button class="incremental-darken">Incremental Darken</button>
         <button class="eraser">Eraser</button>
