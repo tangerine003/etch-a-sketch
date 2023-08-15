@@ -15,32 +15,33 @@
     />
   </head>
   <body>
-    <div class="main-container">
-      <div class="options-container">
-        <h1>Etch A Sketch</h1>
-        <div class="grid-size-slider-container">
-          <input
-            type="range"
-            min="1"
-            max="100"
-            value="16"
-            class="grid-size-slider"
-            id="myRange"
-          />Grid Size: <span id="grid-size"></span>
+    <div class="webpage-container">
+      <h1>Etch A Sketch</h1>
+      <div class="main-container">
+        <div class="options-container">
+          <div class="grid-size-slider-container">
+            <input
+              type="range"
+              min="1"
+              max="100"
+              value="16"
+              class="grid-size-slider"
+              id="myRange"
+            />Grid Size: <span id="grid-size"></span>
+          </div>
+          <button class="grid-clear">Clear</button>
+          <button class="toggle-grid-lines">Toggle Grid Lines</button>
+          <div class="choose-color">
+            Choose Color:
+            <input type="color" name="" id="color-picker" value="#aa045a" />
+          </div>
+          <button class="random-color">Random Color</button>
+          <button class="incremental-darken">Incremental Darken</button>
+          <button class="eraser">Eraser</button>
         </div>
-
-        <button class="grid-clear">Clear</button>
-        <button class="toggle-grid-lines">Toggle Grid Lines</button>
-        <div class="choose-color">
-          Choose Color:
-          <input type="color" name="" id="color-picker" value="#aa045a" />
-        </div>
-        <button class="random-color">Random Color</button>
-        <button class="incremental-darken">Incremental Darken</button>
-        <button class="eraser">Eraser</button>
+        <div class="container"></div>
       </div>
-      <div class="container"></div>
+      <script src="javascript.js"></script>
     </div>
-    <script src="javascript.js"></script>
   </body>
 </html>
